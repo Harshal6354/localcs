@@ -1,0 +1,35 @@
+
+.menu-Main {
+    display: flex;
+    justify-content: flex-end; /* Moves menu items to the right */
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(196, 83, 152);
+    padding: 10px;
+}
+
+.ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Aligns items in a row */
+    gap: 15px; /* Spaces out menu items */
+}
+
+.menu {
+    color: red;
+    background-color: aqua;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu:hover {
+    background-color: lightblue;
+}
+
+
